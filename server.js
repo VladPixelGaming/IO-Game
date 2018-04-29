@@ -7,7 +7,7 @@ var fs = require("fs");
 var players = {};
 var lastPlayerId = -1;
 
-http.listen(3000, function(){
+http.listen(8080, function(){
     console.log('listening on *:3000');
 });
 
